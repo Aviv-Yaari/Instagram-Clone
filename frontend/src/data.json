@@ -1,0 +1,51 @@
+{
+  "stories": [
+    {
+      "_id": "story01",
+      "user": {
+        "username": "avivyar",
+        "img": "https://ps.w.org/simple-local-avatars/assets/icon-256x256.png"
+      },
+      "uploads": [
+        { "type": "video", "src": "something.mp4" },
+        { "type": "image", "src": "something.png" }
+      ],
+      "seen": [
+        {
+          "username": "avivyar",
+          "img": "https://ps.w.org/simple-local-avatars/assets/icon-256x256.png"
+        }
+      ]
+    },
+    {
+      "_id": "story02",
+      "user": {
+        "username": "zivshuvy",
+        "img": "https://ps.w.org/simple-local-avatars/assets/icon-256x256.png"
+      },
+      "uploads": [{ "type": "image", "src": "something.png" }],
+      "seen": [
+        {
+          "username": "avivyar",
+          "img": "https://ps.w.org/simple-local-avatars/assets/icon-256x256.png"
+        }
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "_id": "post01",
+      "user": {
+        "username": "zivshuvy",
+        "img": "https://ps.w.org/simple-local-avatars/assets/icon-256x256.png"
+      },
+      "media": [{ "type": "image", "src": "something.png" }],
+      "text": "this is my first post!!!",
+      "likes": [
+        { "username": "zivshuvy", "img": "https://ps.w.org/simple-local-avatars/assets/icon-256x256.png" },
+        { "username": "avivyar", "img": "https://ps.w.org/simple-local-avatars/assets/icon-256x256.png" }
+      ],
+      "comments": [{ "username": "zivshuvy", "text": "haha so funny" }]
+    }
+  ]
+}

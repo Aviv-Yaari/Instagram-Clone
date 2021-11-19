@@ -1,0 +1,52 @@
+.login-form {
+  > * {
+    padding: 24px 0;
+  }
+  > :first-child {
+    gap: 24px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-bottom: 12px;
+  }
+  .img-logo {
+    object-fit: cover;
+    height: 51px;
+    width: 175px;
+    margin-bottom: 24px;
+  }
+  form {
+    gap: 6px;
+  }
+  .btn-facebook {
+    font-weight: 600;
+    color: #385185;
+    gap: 8px;
+    img {
+      width: 17px;
+      height: 17px;
+    }
+  }
+  .or {
+    align-items: center;
+    span:first-child,
+    span:last-child {
+      flex-grow: 1;
+      height: 1px;
+      background-color: $clr-3;
+    }
+    span:nth-child(2) {
+      text-transform: uppercase;
+      color: #8e8e8e;
+      font-weight: 600;
+      font-size: 0.928em;
+      padding: 0 15px;
+    }
+  }
+  .forgot-password {
+    font-size: 0.85em;
+  }
+  .sign-up {
+    color: #0095f6;
+    font-weight: 600;
+  }
+}

@@ -1,0 +1,17 @@
+.story-list {
+  gap: 8px;
+  margin: 24px 0;
+  padding: 16px;
+}
+
+.story-preview {
+  position: relative;
+  width: fit-content;
+
+  .img-frame {
+    width: 56px;
+    height: 56px;
+    left: 0;
+    position: absolute;
+  }
+}

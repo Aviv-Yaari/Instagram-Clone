@@ -1,0 +1,22 @@
+.app-header {
+  border-bottom: 1px solid $clr-3;
+  background-color: #fff;
+  padding: 12px 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+  .img-logo {
+    margin-right: 260px;
+  }
+
+  .search {
+    width: 215px;
+    padding: 4px 7px;
+  }
+
+  .icons {
+    gap: 22px;
+    margin-left: auto;
+  }
+}

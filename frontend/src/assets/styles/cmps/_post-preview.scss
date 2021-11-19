@@ -1,0 +1,62 @@
+.post-list {
+  gap: 10px;
+}
+
+.post-preview {
+  display: grid;
+  column-gap: 1rem;
+  padding-top: 14px;
+  grid-template-columns: 0px 1fr 0px;
+
+  > * {
+    grid-column: 2;
+  }
+
+  > .full {
+    grid-column: 1 / -1;
+  }
+
+  header .username {
+    margin-left: 14px;
+  }
+
+  .main {
+    gap: 8px;
+  }
+
+  .icon-more {
+    margin-left: auto;
+  }
+
+  .media {
+    margin: 14px 0;
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+  }
+
+  .actions {
+    gap: 8px;
+    margin: 0 -8px;
+    button {
+      padding: 8px;
+      border: none;
+      background-color: transparent;
+    }
+    svg {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  time {
+    text-transform: uppercase;
+    font-size: 0.714em;
+    color: $clr-7;
+    margin-bottom: 16px;
+  }
+
+  .comment {
+    line-height: 1.5em;
+  }
+}

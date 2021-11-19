@@ -1,0 +1,25 @@
+.modal {
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.85);
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    display: grid;
+    place-items: center;
+  }
+
+  header {
+    border-bottom: 1px solid $clr-3;
+    padding: 14px 7px;
+    color: $clr-5;
+    font-weight: 600;
+    font-size: 1.142em;
+  }
+
+  .content {
+    background-color: white;
+    min-width: 600px;
+    min-height: 700px;
+    border-radius: 10px;
+  }
+}

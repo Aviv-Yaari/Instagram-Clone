@@ -1,0 +1,9 @@
+.post-add-comment {
+  border-top: 1px solid $clr-6;
+  padding: 6px 0;
+  gap: 8px;
+  input {
+    background-color: transparent;
+    border: none;
+  }
+}
